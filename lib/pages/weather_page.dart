@@ -123,7 +123,7 @@ class _WheatherPageState extends State<WheatherPage> {
     return Column(
       children: [
         Image.network(
-          "http://openweathermap.org/img/wn/${_weather?.weatherIcon}@4x.png",
+          "https://openweathermap.org/img/wn/${_weather?.weatherIcon}@4x.png",
           height: 100,
         ),
         Text(
